@@ -132,6 +132,17 @@
     </div>
 
     <script>
+        <script>
+    function revealSurprise() {
+        document.getElementById('surprise-content').style.display = 'block';
+        document.getElementById('reveal-btn').style.display = 'none';
+    }
+
+    // Your existing moveButton code starts here...
+    function moveButton() {
+        const noBtn = document.getElementById('noBtn');
+        // ... rest of your original code
+
         function moveButton() {
             const noBtn = document.getElementById('no-btn');
             
